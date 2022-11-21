@@ -1,1 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T06:39:36.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4I2Q9K13iIV134eQ58oi" version="18.1.2" type="github"><diagram id="q7xRn3-4MdFWaZlb-0XQ" name="Page-1">7VlLU9swEP41nmkP6dgymHCEhEIP0AczdNrbxlo7KrLkysqLX18pUhJCHiWd4JgpJ8uftLvSt9J65Q3iTjG+VFD2ryVFHpCQjoO4GxBCwiQxD4tMPEJI7JBcMeqwaAHcsgf0YOjRAaNYLQ3UUnLNymUwlUJgqpcwUEqOlodlki9bLSHHFeA2Bb6KfmdU9x3aJicL/ApZ3p9ZjpJT11PAbLBfSdUHKkePoPgiiDtKSu1axbiD3LI348XJfdzQO5+YQqGfIzAh2fhXe3R38/OetL+e9PPBj08tr2UIfOAXHJCEG33nlA3tpPXEM5H8HtiZnqeSSxXEZ6ZT5b13JDISHfPyuPHejDOtHqT3uZIDQVtPpOLQjV08vUgmhW5lUDA+caOvUXDpBl1LAalvm/lAURoZP6uOHCiGyvTc4OhppxMppJBVCSk6S5wJbPW966ylqF2Op13JXCzJ/XPByDJk9Im/sRSQ+Dg5TWmyVjmU7A5VxaSY6TQedGq9Ka9kJ4MpnkYn7bUGMw55juoDlKWxNIx6qCHaZHsBr1n8i/BxzwStiYkOCFCT5iy9MJ6goGHb8p89qXB3qrbtUiGkBm12adXA2XHoId/nxPZMnj1ptezooreRhcNSUKEaMhN5Xx0N+yJAQFHX6kFXUauhFLjvb027YNSyVDQnvlclpg2MnjDQsrIJr/qGWYODaM150owWJnKbJxGbJ5FNtg/LTY0505VU7MHk6MC/SHo23znN5OUt6J6XSuYKq6qLQO2N5xbNRZluzZV2td47ThHWs5KEYdMIUThEpT+LLnLUe44mW8xmwKuNe/FQXDwjKzvo+aXGRznU6CWtBntz0lsoexEiSql0TdGrvbfgtX8KuqxKpYlkG39f/DcnQ4PKUX/Z87bYdj42X+cPFcgdB2/p+7KXqun/zWbu2hpT9i6WXE4KWyVoJBWv5dP2FCVLcyEaxxbv64IbILLWOMuFaXPMbI/NO5m5LZ15uGCUWmGTklbsAXpTReE0vjOhp2Wr4/PguBv4u6grjVnFlVbyHjtu1V0hhdWSMc6fQL62Y+zieGPRKJqXoorxJcoCtf2ohDOB0En48l0rikKPjBbVMHLksf6jStjRiQfBV+DyufJFkco0fJ1qh5pVvFKzmv3JD+nKXu+pf/BYahSYS+0r9Vmy4rN41WcRWeMzsrvLzOuihDnte1QJji/+AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:12:34.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vUv4FUZXhvd6MV-7M02y" version="18.1.2" type="github">
+  <diagram id="q7xRn3-4MdFWaZlb-0XQ" name="Page-1">
+    <mxGraphModel dx="2066" dy="2223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y2fxj8wVNZk28Q7hguYI-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;apiVersion&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;flagger.app/v1beta1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;kind&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;Canary&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;metadata&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;annotations&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;labels&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;app&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;mbs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;service&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;mbs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;ats1-mbs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;namespace&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;mw-ats1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;spec&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;autoscalerRef&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;apiVersion&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;autoscaling/v2beta2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;kind&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;CronHPA&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;ats1-mbs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;progressDeadlineSeconds&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;600&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;revertOnDeletion&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;service&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;delegation&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;ats1-mbs&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;port&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;80&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;portDiscovery&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;targetPort&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;app&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;targetRef&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;apiVersion&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;apps/v1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;kind&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;Deployment&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;ats1-mbs&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-1100" width="240" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="y2fxj8wVNZk28Q7hguYI-3" value="Canary deployment&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="-1130" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-3" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-690" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-3">
+          <mxGeometry width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-5" value="HPA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-4">
+          <mxGeometry width="147" height="40" as="geometry">
+            <mxRectangle width="147" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-6" value="CurrentMin" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-4">
+          <mxGeometry x="147" width="146" height="40" as="geometry">
+            <mxRectangle width="146" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-7" value="MAX" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-4">
+          <mxGeometry x="293" width="147" height="40" as="geometry">
+            <mxRectangle width="147" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-3">
+          <mxGeometry y="40" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-9" value="&lt;span style=&quot;&quot;&gt;mbs-Cronhpa&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-8">
+          <mxGeometry width="147" height="40" as="geometry">
+            <mxRectangle width="147" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-10" value="20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-8">
+          <mxGeometry x="147" width="146" height="40" as="geometry">
+            <mxRectangle width="146" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-11" value="100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-8">
+          <mxGeometry x="293" width="147" height="40" as="geometry">
+            <mxRectangle width="147" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-3">
+          <mxGeometry y="80" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-13" value="&lt;span style=&quot;&quot;&gt;mbs-Cronhpa-primary&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-12">
+          <mxGeometry width="147" height="40" as="geometry">
+            <mxRectangle width="147" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-14" value="80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-12">
+          <mxGeometry x="147" width="146" height="40" as="geometry">
+            <mxRectangle width="146" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-15" value="100" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="CpvixyQsr5-yys-KjXcP-12">
+          <mxGeometry x="293" width="147" height="40" as="geometry">
+            <mxRectangle width="147" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-16" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;apiVersion&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;cronhpa.tomoku.com/v1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;kind&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;CronHPA&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;metadata&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(248, 249, 250); color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;mbs-Cronhpa&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;spec&lt;/span&gt;:&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;template&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;spec&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;scaleTargetRef&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;apiVersion&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;apps/v1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;kind&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;Deployment&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;mudu-ngnix&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;minReplicas&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;: &lt;/span&gt;&lt;font color=&quot;#b5cea8&quot;&gt;80&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;maxReplicas&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;: &lt;/font&gt;&lt;font color=&quot;#b5cea8&quot;&gt;100&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;  &lt;span style=&quot;color: #569cd6;&quot;&gt;cron&lt;/span&gt;:&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;  - &lt;span style=&quot;color: #569cd6;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;daytime&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;schedule&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;0 7 0 0 1-5&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;timezone&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;Asia/China&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;    &lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;minReplicas&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;: &lt;/font&gt;&lt;font color=&quot;#b5cea8&quot;&gt;20&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;    &lt;span style=&quot;color: #569cd6;&quot;&gt;maxReplicas&lt;/span&gt;: &lt;/span&gt;&lt;font color=&quot;#b5cea8&quot;&gt;100&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-610" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CpvixyQsr5-yys-KjXcP-17" target="CpvixyQsr5-yys-KjXcP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-17" value="Canary deploy start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CpvixyQsr5-yys-KjXcP-18" target="CpvixyQsr5-yys-KjXcP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-18" value="CronHPA(min:80) Create" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-920" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CpvixyQsr5-yys-KjXcP-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="-790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-19" value="CronHPA&amp;nbsp; Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-21" value="CronHPA(min: 20) Created" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-720" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-24" value="Webhook work, Change HPA MIN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="-820" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CpvixyQsr5-yys-KjXcP-25" target="CpvixyQsr5-yys-KjXcP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-25" value="Canary&amp;nbsp;&lt;span style=&quot;&quot; data-slate-fragment=&quot;JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJoZWFkaW5nLTElMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnByb21vdGlvbiUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjUyNmJjYzRmODhiNTRjOGViOWY3OGRhNjAzODM2NWFjJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyZDk4NDhhNTdkOWNmNDQ3OGJmYmQzNDkzOGIzNTRhMGMlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJlOWZiNTA1NmMwYmM0YjMyOGE3MTE2OGI4YzU3MGI4YyUyMiU3RA==&quot;&gt;promotion&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CpvixyQsr5-yys-KjXcP-28" target="CpvixyQsr5-yys-KjXcP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-28" value="CronHPA-primary(min:20) Create" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-500" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CpvixyQsr5-yys-KjXcP-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-30" value="CronHPA&amp;nbsp; Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpvixyQsr5-yys-KjXcP-31" value="CronHPA-primary(min: 80) Created" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-350" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
