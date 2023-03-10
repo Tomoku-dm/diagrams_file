@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T06:52:28.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="FNNVxpacGXWacybnpRC0" type="github"><diagram name="第 1 页" id="ayuYj6sYIHKGLGVzI6dH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-10T06:54:25.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Eyc-v18-87uLGaaK5HxC" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="ayuYj6sYIHKGLGVzI6dH">
+    <mxGraphModel dx="1188" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eGdA60VEzhaD9GX52T_X-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-2" value="superadmin pod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-4" value="app container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-6" value="collectd container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-7" value="port: 8091&lt;br&gt;jmx ,ssl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eGdA60VEzhaD9GX52T_X-8" target="eGdA60VEzhaD9GX52T_X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGdA60VEzhaD9GX52T_X-8" value="port: 9103&lt;br&gt;prometheus plugin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
