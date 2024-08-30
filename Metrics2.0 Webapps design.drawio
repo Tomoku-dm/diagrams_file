@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="fWNnaJhq76tSm6XB1aWO">
-    <mxGraphModel>
+    <mxGraphModel dx="1246" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-5" value="&lt;a href=&quot;https://sqbu-github.cisco.com/WebExSquared/dash-tool&quot;&gt;DashTool&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Config.yaml&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="nmUOTvEDm5lJNUOss9-g-1" target="nmUOTvEDm5lJNUOss9-g-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-15" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nmUOTvEDm5lJNUOss9-g-16" value="Alert + Contact_points" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="165" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
